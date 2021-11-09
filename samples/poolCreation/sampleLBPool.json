@@ -1,22 +1,23 @@
 {
-    "network": "kovan",
-    "name": "Python Test LBP",
+    "network": "rinkeby",
+    "name": "Test LBP",
     "symbol": "LBP 123",
     "poolType": "LiquidityBootstrappingPool",
     "swapFeePercent": "0.1",
     "fromInternalBalance": false,
     "swapEnabledOnStart": false,
-    "owner": "0x975EefE53305c0c5480aeC00cea22e8b36250C05",
+    "owner": "0x67c78a0FADDB29298aF8873dE72Ea5654307BFf2",
     "tokens": {
-        "0x41286Bb1D3E870f3F750eB7E1C25d7E48c8A1Ac7": {
+        "0xFfd8b67877E573f31e063E5c1649f5A7929710B1": {
             "weight": "0.9",
-            "initialBalance": "0.000001",
+            "initialBalance": "1.000000",
             "allowance": -1
         },
-        "0x04DF6e4121c27713ED22341E7c7Df330F56f289B": {
+        "0x25502f3b7467b641e691b5D99106D7344D05b386": {
             "weight": "0.1",
-            "initialBalance": "0.000001",
+            "initialBalance": "1.000000",
             "allowance": -1
         }
-    }
+    },
+    "poolId": "11bab0003b96b4a46d338503fd81f4136ab5615f000200000000000000000079"
 }

@@ -2,7 +2,6 @@ import balpy
 import sys
 import os
 import json
-
 import webbrowser
 
 from os.path import join, dirname

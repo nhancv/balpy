@@ -7,10 +7,10 @@ dotenv_path = join(dirname(__file__), '..', '.env')
 load_dotenv(dotenv_path)
 
 def main():
-	network = "kovan"
+	network = "rinkeby"
 
 	bal = balpy.balpy.balpy(network);
-	poolId = "0x0910c350d5e836324491892d51bb4e97c33eaf23000200000000000000000357"
+	poolId = "0x11bab0003b96b4a46d338503fd81f4136ab5615f000200000000000000000079"
 	command = bal.balGeneratePoolCreationArguments(poolId);
 	
 	print()
